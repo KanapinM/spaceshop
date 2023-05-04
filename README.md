@@ -12,3 +12,6 @@
 - Flexbox
 - Grid
 - БЭМ
+
+### Ознакомиться с проектом можно по ссылке ниже: 
+https://kanapinm.github.io/spaceshop/
