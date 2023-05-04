@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shop</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="page-background"></div>
+        <div class="page-background-black"></div>
+        <div class="content">
+            <header class="header">
+                <img class="header__logo" src="./images/logo.svg" alt="логотип Спейсшип">
+                <button class="header__button">Личный кабинет</button>
+            </header>
+
+            <main>
+                <section class="goods">
+                    <h2 class="goods__title">Наши новинки:</h2>
+                    <section class="cards-container">
+                        <article class="card">
+                            <img src="./images/i1.svg" alt="корабль Чегантина" class="card__image">
+                            <h3 class="card__name">
+                                «Чегантина» – <br>парадный боевой<br>крейсер
+                            </h3>
+                            <div class="price">
+                                <s class="card__price-old">$1 299</s>
+                                <span class="card__price-current">$999</span>
+                            </div>
+                            <button class="card__button">Заказать</button>
+                        </article>
+                        <article class="card">
+                            <img src="./images/i2.svg" alt="корабль синего цвета 
+                            (c локаторами)" class="card__image">
+                            <h3 class="card__name">
+                                Космический корабль синего цвета<br>
+                                (c локаторами)
+                            </h3>
+                            <div class="price">
+                                <s class="card__price-old">$1 899</s>
+                                <span class="card__price-current">$1 299</span>
+                            </div>
+                            <button class="card__button">Заказать</button>
+                        </article>
+                        <article class="card">
+                            <img src="./images/i3.svg" alt="корабль Ночной ястреб" class="card__image">
+                            <h3 class="card__name">
+                                «Ночной ястреб» –
+                                Надежный корабль-перехватчик
+                            </h3>
+                            <span class="card__price">$799</span>
+                            <button class="card__button">Заказать</button>
+                        </article>
+                    </section>
+                    <section class="cards-container cards-container_md">
+                        <article class="card card_md">
+                            <img src="./images/i4.svg" alt="корабль Карающий луч" class="card__image">
+                            <h3 class="card__name">
+                                «Карающий луч» –
+                                Полнофункциональный боевой<br> корабль низкой ценовой категории
+                            </h3>
+                            <span class="card__price">$479</span>
+                            <button class="card__button card__button_md">Заказать</button>
+                        </article>
+                        <article class="card card_md">
+                            <img src="./images/i5.svg" alt="корабль «Антидоминатор»" class="card__image">
+                            <h3 class="card__name">
+                                «Антидоминатор» – <br>
+                                Дорогое и эффективное оружие<br> против доминаторов.
+                            </h3>
+                            <span class="card__price">$1 779</span>
+                            <button class="card__button card__button_md">Заказать</button>
+                        </article>
+                    </section>
+                </section>
+
+                <section class="promo">
+                    <h2 class="promo__title">Корабль дня:</h2>
+                    <div class="promo__content">
+                        <div class="overwiew">
+                            <img class="promo__image" src="./images/i6.svg" alt="корабль Цербер">
+                            <article class="info">
+                                <img src="./images/rate.svg" alt="рейтинг корабля" class="info__rate">
+                                <h3 class="info__name">«Цербер»</h3>
+                                <p class="info__description">
+                                    Маневренное патрульное судно, предназначенное для охраны
+                                    систем.
+                                </p>
+                                <section class="prices">
+                                    <s class="info__price">$1 600</s>
+                                    <s class="info__price">$1 400</s>
+                                    <span class="info__price info__price_current">$800</span>
+                                    <span class="info__price-discount">-50%</span>
+                                </section>
+                                <section class="discounts">
+                                    <div class="discounts__descriptions">
+                                        <p class="info__discount-description">Скидка SPACESHOP</p>
+                                        <p class="info__discount-description">Промокод «КОРАБЛЬДНЯ3»</p>
+                                        <p class="info__discount-description">Вы эĸономите</p>
+                                    </div>
+                                    <div class="discounts__amounts">
+                                        <span class="info__discount-amount">$200</span>
+                                        <span class="info__discount-amount">$600</span>
+                                        <span class="info__discount-amount info__discount-amount_higher">$800</span>
+                                    </div>
+                                </section>
+                            </article>
+                        </div>
+                        <p class="promo__promocode">КОРАБЛЬДНЯ3</p>
+                        <button class="promo__button">Заказать</button>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <p class="footer__welcome">Присоединяйтесь к нам в соц. сетях!</p>
+                <ul class="footer__social-zone">
+                    <li>
+                        <a class="footer__link" href="https://youtube.com" target="_blank"><img
+                                class="footer__social-logo" src="./images/icon--yt.svg" alt="логотип Ютуб"></a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="http://facebook.com" target="_blank"><img
+                                class="footer__social-logo" src="./images/icon--fb.svg" alt="логтип Фэйсбук"></a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="http://instagram.com" target="_blank"><img
+                                class="footer__social-logo" src="./images/icon--inst.svg" alt="логтип Инстаграм"></a>
+                    </li>
+                </ul>
+                <section class="footer__contacts">
+                    <address class="footer__contacts-list">
+                        <p class="footer__contacts-title">Контакты:</p>
+                        <a href="tel:0(123)345-67-89" class="footer__phone">0 (123) 345-67-89</a>
+                        <a href="mailto:contact@spaceshop.sp" class="footer__email">contact@spaceshop.sp</a>
+                    </address>
+                    <img class="footer__logo" src="./images/logo.svg" alt="логотип Спейсшип">
+                </section>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
